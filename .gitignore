@@ -1,0 +1,45 @@
+#IntelliJ ignores
+.idea
+*.iml
+#Not using '*' to prevent package ignroing.
+/target
+/api/target
+/core/target
+
+#Eclipse ignores
+#Reference: https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
